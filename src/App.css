@@ -6,6 +6,75 @@
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
+h1{
+  display: flex;
+  justify-content: center;
+  border: 5px #1B2D2A solid;
+  font-family: sans-serif,	Arial
+Verdana;
+}
+body{
+  display: flex;
+  justify-content: center;
+  background-color: #82816D;
+}
+.charts{
+/* .song-list{ */
+  border: 30px solid #1B2D2A;
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+  margin: 5px;
+}
+.song-list{
+  text-align: center;
+}
+h2{
+  border: 1px dotted #1B2D2A;
+  border-radius: 50%;
+  display: block;
+  width: 60px;
+  margin: 20px;
+  padding: 5px;
+  background-color: #1B2D2A;
+  /* opacity: 0.5; */
+  color: grey;
+}
+
+h4{
+  font-weight: bold;
+}
+ p{
+  /* color:grey; */
+  font-weight: 400;
+  font-family: fantasy;
+}
+#artwork{
+  border:#414066 5px solid;
+  display: block;
+  margin:auto;
+
+  justify-content: center;
+}
+sub-title{
+  display: inline;
+  justify-content: center;
+}
+audio{
+  display: block;
+  margin: auto;
+  justify-content: center;
+  border:#414066 5px solid;
+  /* border-radius: 90%; */
+  background-color: #82816D
+}
+.song{
+  border: 10px solid #414066;
+  /* display:flex;
+  justify-content: right; */
+  padding:10px;
+  margin-bottom: 10px;
+}
 
 .App-header {
   background-color: #282c34;
